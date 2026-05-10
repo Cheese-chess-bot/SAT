@@ -1,0 +1,23 @@
+# Build Tools
+setuptools
+wheel
+Cython
+
+# Core AI & UI
+gradio[oauth,mcp]==6.14.0
+spaces
+torch
+transformers
+accelerate
+
+# Data & Technical Analysis (The 2.0+ Path)
+numpy>=2.0.0
+pandas>=2.0.0
+pandas-ta-classic>=0.5.44
+yfinance
+alpha_vantage==2.3.1
+
+# Trading (Removing the <2.0 constraint)
+alpaca-trade-api
+flask
+gunicorn
